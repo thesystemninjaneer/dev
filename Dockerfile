@@ -2,7 +2,7 @@
 # This Dockerfile is from https://github.com/thesystemninjaneer/dev.git and
 # includes the base tools needed for developing infrastructure as code
 # resources.
-# Ex:  winpty docker run -ti -v "//$HOME/code:/root/code" -v "//$HOME/.aws:/root/.aws" thesystemninjaneer:dev
+# Ex:  docker run -ti -v "$HOME/code:/root/code" -v "$HOME/.aws:/root/.aws" thesystemninjaneer:dev bash
 # Author: thesystemninjaneer@gmail.com
 # Date 1/1/2020
 
