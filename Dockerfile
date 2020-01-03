@@ -20,7 +20,7 @@ RUN yum install -y dnf-utils && \
 
 # Freshen up base image and install ansible
 RUN yum -y update && \
-    yum install -y git zip epel-release python3-pip dnf-utils && \
+    yum install -y git zip epel-release python3-pip dnf-utils tmux wget && \
     yum install -y ansible
 
 # Install AWS CLI based on https://github.com/aws/aws-cli#installation
