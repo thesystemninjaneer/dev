@@ -15,3 +15,5 @@ This is a generic repo of developer tools to make developing easier.
   * display terminals to many machine in a single window
 * wget
   * command line tool for interacting with web endpoints
+* kubectl
+  * command line tool for manageing kubernetes services
