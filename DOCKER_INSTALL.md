@@ -41,3 +41,17 @@ If you intend to run this container on your developer workstation/laptop but don
     # run docker at startup
     sudo systemctl start docker
     ```
+## Docker Compose
+
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+```
+* Test
+```
+$ docker-compose version
+docker-compose version 1.25.3, build d4d1b42b
+docker-py version: 4.1.0
+CPython version: 3.7.5
+OpenSSL version: OpenSSL 1.1.0l  10 Sep 2019
+```
