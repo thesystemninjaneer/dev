@@ -36,7 +36,7 @@ If you intend to run this container on your developer workstation/laptop but don
         https://download.docker.com/linux/centos/docker-ce.repo
     sudo yum install docker-ce docker-ce-cli containerd.io -y
     # Example of using a separate volume for saving container images
-    sudo ln -s /data /var/lib/
+    sudo ln -s /data /var/lib/docker
     sudo systemctl enable docker
     # run docker at startup
     sudo systemctl start docker
