@@ -41,7 +41,7 @@ If you intend to run this container on your developer workstation/laptop but don
     # run docker at startup
     sudo systemctl start docker
     ```
-## Docker Compose
+### Docker Compose
 
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.25.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
