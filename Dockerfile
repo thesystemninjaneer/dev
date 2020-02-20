@@ -18,9 +18,9 @@ RUN yum install -y dnf-utils jq && \
     yum-config-manager --save --setopt=$repoid.gpgkey='https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg' && \
     yum -y install google-cloud-sdk
 
-# Freshen up base image and install ansible, kubectl
+# Freshen up base image and install ansible, kubectl, man pages
 RUN yum -y update && \
-    yum install -y git zip epel-release python3-pip dnf-utils tmux wget && \
+    yum install -y git zip epel-release python3-pip dnf-utils tmux wget man && \
     yum install -y ansible kubectl
 
 # Install AWS CLI based on https://github.com/aws/aws-cli#installation

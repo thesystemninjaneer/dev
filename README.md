@@ -17,5 +17,7 @@ This is a generic repo of developer tools and containers to make developing easi
   * command line tool for interacting with web endpoints
 * kubectl
   * command line tool for manageing kubernetes services
+* man
+  * framework to read application manuals 
 
 NOTE: To install docker, see [these instructions](DOCKER_INSTALL.md)
