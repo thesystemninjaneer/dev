@@ -18,6 +18,8 @@ This is a generic repo of developer tools and containers to make developing easi
 * kubectl
   * command line tool for manageing kubernetes services
 * man
-  * framework to read application manuals 
+  * framework to read application manuals
+* dos2unix
+  * command to convert windows file formats to unix format
 
 NOTE: To install docker, see [these instructions](DOCKER_INSTALL.md)

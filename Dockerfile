@@ -12,7 +12,7 @@ LABEL maintainer="thesystemninjaneer@gmail.com"
 
 # Install jq and GCP CLI based on https://cloud.google.com/sdk/docs/
 ENV GPC_RPM_URL https://packages.cloud.google.com/yum/repos/cloud-sdk-el8-x86_64
-RUN yum install -y dnf-utils jq && \
+RUN yum install -y dnf-utils jq dos2unix && \
     yum-config-manager --add-repo $GPC_RPM_URL && \
     repoid=$(echo ${GPC_RPM_URL##http[s]://} | tr '/' '_') && \
     yum-config-manager --save --setopt=$repoid.gpgkey='https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg' && \
