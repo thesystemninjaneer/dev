@@ -21,5 +21,7 @@ This is a generic repo of developer tools and containers to make developing easi
   * framework to read application manuals
 * dos2unix
   * command to convert windows file formats to unix format
+* vim
+  * command line interface for text file editing
 
 NOTE: To install docker, see [these instructions](DOCKER_INSTALL.md)
